@@ -9,28 +9,23 @@ X_train, y_train = mndata.load_training()
 X_test, y_test = mndata.load_testing()
 
 
-#Data Scaling
-X_train = np.array(X_train)/255.0
-y_train = np.array(y_train)
+# Data Scaling
+X_train = np.asarray(X_train)/255.0
+y_train = np.asarray(y_train)
 
-X_test = np.array(X_test)/255.0
-y_test = np.array(y_test)
+X_test = np.asarray(X_test)/255.0
+y_test = np.asarray(y_test)
 
 y_train = to_categorical(y_train, 10)
 y_test = to_categorical(y_test, 10)
 
 model = models.Sequential()
-model.add(layers.Dense(64, activation="relu"))
-model.add(layers.Dense(64, activation="relu"))
-model.add(layers.Dense(64, activation="relu"))
-model.add(layers.Dense(64, activation="relu"))
-model.add(layers.Dense(64, activation="relu"))
 
-model.add(layers.Dense(64, activation="relu"))
-model.add(layers.Dense(64, activation="relu"))
-model.add(layers.Dense(64, activation="relu"))
-model.add(layers.Dense(64, activation="relu"))
-model.add(layers.Dense(64, activation="relu"))
+model.add(layers.Dense(5000, activation="relu"))
+model.add(layers.Dense(4000, activation="relu"))
+model.add(layers.Dense(3000, activation="relu"))
+model.add(layers.Dense(2000, activation="relu"))
+model.add(layers.Dense(1000, activation="relu"))
 
 model.add(layers.Dense(10, activation="softmax"))
 model.compile(optimizer="adam", loss="categorical_crossentropy", metrics=["accuracy"])
