@@ -1,0 +1,1 @@
+Test effects of IOU and Score on YoloV3 for face. Pretrain models: https://github.com/qqwweee/keras-yolo3
