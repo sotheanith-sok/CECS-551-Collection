@@ -10,7 +10,7 @@ A collection of assignments for the CECS 551 class.
  - [NumPy](https://numpy.org/)
  - [TensorFlow](https://www.tensorflow.org/)
 
-## Author
+## Authors
  - [Sotheanith Sok](https://github.com/sotheanith)
 
 ## Course
