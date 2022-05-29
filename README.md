@@ -11,7 +11,7 @@ A collection of assignments for the CECS 551 class.
  - [TensorFlow](https://www.tensorflow.org/)
 
 ## Authors
- - [Sotheanith Sok](https://github.com/sotheanith)
+ - [Sotheanith Sok](https://github.com/sotheanith-sok)
 
 ## Course
  - [CECS 551 - Advanced Artificial Intelligence](http://catalog.csulb.edu/preview_course_nopop.php?catoid=5&coid=40041)
